@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 sphinx = "*"
 livereload = "*"
+myst-parser = "*"
+sphinx-autodoc-typehints = "*"
 
 [dev-packages]
 
