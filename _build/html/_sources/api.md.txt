@@ -13,3 +13,13 @@ Let's take a look at this Python class.
 .. autoclass:: my_demo.MyClass
   :members:
 ```
+
+# About Pauls `MyDemo`
+
+Let's take a look at this Python class.
+
+## Paul's mydemo
+```{eval-rst}
+.. automodule:: my_demo_paul
+  :members:
+```

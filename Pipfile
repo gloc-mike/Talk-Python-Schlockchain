@@ -8,6 +8,11 @@ sphinx = "*"
 livereload = "*"
 myst-parser = "*"
 sphinx-autodoc-typehints = "*"
+sphinx-book-theme = "*"
+sphinx-bootstrap-theme = "*"
+furo = "*"
+sphinx-ext-substitution = "*"
+rinohtype = "*"
 
 [dev-packages]
 

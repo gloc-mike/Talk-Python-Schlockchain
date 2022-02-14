@@ -1,4 +1,12 @@
+---
+title: Welcome to the Site
+substitutions:
+    snippet: "I'm a **substitution**"
+---
+
 # About Us
+
+Let's see the `snippet`: {{ snippet }}
 
 ## Course Reference Site:
 
@@ -152,3 +160,40 @@ With line numbers `:linenos:` & `:emphasis-lines:`
 ```{literalinclude} my_demo.py
 :emphasize-lines: 2-3
 ```
+
+### Referencing Symbols in Docs
+
+As we can see in [our Python class](my_demo.MyDemo), Python is fun!
+
+### Role-based syntax, with the Python domain as a prefix
+
+As we can see in {py:class}`my_demo.MyDemo`, Python is fun!
+
+### With Own Link Text
+
+As we can see in {py:class}`HW <my_demo.MyDemo>`, Python is fun!
+
+### Linking to a Role
+
+#### In regular Markdown
+
+Let's talk about the power of [Sphinx roles](https://www.sphinx-doc.org/en/master/usage/restructuredtext/roles.html#ref-role).
+
+#### MyST Syntax
+
+Let's talk about the power of [Sphinx roles](sphinx:usage/restructuredtext/roles).
+
+#### To a Page "Role"
+
+Let's talk about the power of [Sphinx roles](sphinx:ref-role).
+
+#### Let Remote Title Be Local Link Text i.e. using `[]`
+
+Let's talk about the power of [](sphinx:ref-role).
+
+### Linking to Domains
+
+Let's talk about the power of {rst:dir}`code-block`.
+
+## Debugging
+
